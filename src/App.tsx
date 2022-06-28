@@ -1,11 +1,12 @@
 import Header from "./components/Header";
-import PokemonCard from "./components/PokemonCard";
+import Pokemon from "./components/Pokemon";
+import Detalhes from "./pages/Detalhes";
+import Home from "./pages/Home";
 
 function App() {
 	return (
 		<>
-			<Header />
-			<PokemonCard />
+			<Detalhes />
 		</>
 	);
 }

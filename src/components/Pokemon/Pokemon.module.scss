@@ -1,0 +1,26 @@
+.title {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.pokemon {
+    background-color: rgba(155, 229, 155, 0.535);
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    img {
+        width: 20rem;
+    }
+}
+
+.detalhes {
+    display: inline-block;
+    margin: 2rem 0;
+    font-weight: 400;
+    border-bottom: 2px solid #000;
+    padding-bottom: .5rem;
+}

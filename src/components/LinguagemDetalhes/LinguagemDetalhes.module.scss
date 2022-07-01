@@ -30,12 +30,9 @@
 
 
 .pokemon {
+    --cores-card: #{rgba(random(255), random(255), random(255), .7)};
     background-color: var(--cores-card);
 
-    @for $cor from 1 through 10 {
-       --cores-card: #{rgba(random(255), random(255), random(255), .7)};
-
-    }
 
     height: 500px;
     border-radius: 20px;

@@ -1,0 +1,44 @@
+.pokemonHeader {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+
+    svg {
+        font-size: 2.5rem;
+        transition: 200ms;
+
+        &:hover {
+            color: #c4c4c4;
+            cursor: pointer;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 2em;
+    }
+}
+
+
+.pokemon {
+    background-color: rgba(155, 229, 155, 0.535);
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    img {
+        width: 20rem;
+    }
+}
+
+.detalhes {
+    display: inline-block;
+    margin: 2rem 0;
+    font-weight: 400;
+    border-bottom: 2px solid #000;
+    padding-bottom: .5rem;
+}

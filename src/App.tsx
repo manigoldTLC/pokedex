@@ -1,6 +1,13 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/Header';
+import AppRouter from "./routes";
+
 function App() {
 	return (
-		<h1>Olá mundo</h1>
+		<Router>
+			<Header />
+			<AppRouter />
+		</Router>
 	);
 }
 

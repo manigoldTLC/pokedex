@@ -1,4 +1,4 @@
-import Pokemon from '../../components/PokemonDetalhes';
+import Pokemon from '../../components/LinguagemDetalhes';
 import style from './Detalhes.module.scss';
 
 const Detalhes = () => {

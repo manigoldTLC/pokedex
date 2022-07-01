@@ -1,4 +1,4 @@
-import style from './PokemonCard.module.scss';
+import style from './LinguagemCard.module.scss';
 import pokemon from '../../assets/bulbassauro.svg';
 import background from '../../assets/Pokeball-card.svg';
 import { useNavigate } from 'react-router-dom';

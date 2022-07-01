@@ -1,17 +1,19 @@
 import { ReactComponent as Logo } from '../../assets/Pokeball.svg';
 import { ReactComponent as Menu } from '../../assets/Vector.svg';
+import { Link } from 'react-router-dom';
 import styles from './Header.module.scss';
 
 
 const Header = () => {
+
     return (
         <header className={styles.header}>
-            <a className={styles.header__logo} href="#">
+            <Link className={styles.header__logo} to='/'>
                 <Logo />
-            </a>
-            <a className={styles.header__menu} href="#" >
+            </Link>
+            <button className={styles.header__menu}>
                 <Menu />
-            </a>
+            </button>
         </header>
     )
 }

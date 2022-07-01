@@ -2,14 +2,21 @@
     width: auto;
     max-height: 200px;
     border-radius: 10px;
-    background-color: rgba(14, 103, 14, 0.669);
+    background-color: var(--cores-card);
+
+    @for $cor from 0 through 134 {
+        &:nth-child(#{$cor}) {
+            --cores-card: #{rgba(random(255), random(255), random(255), .7)};
+        }
+    }
+
     padding: 1rem;
     position: relative;
     overflow: hidden;
     transition: 300ms;
 
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
         cursor: pointer;
     }
 
@@ -17,7 +24,6 @@
         color: #fff;
         font-weight: bold;
         font-size: 1.15em;
-
     }
 
     .pokemon {
@@ -27,11 +33,10 @@
         .texts {
             display: flex;
             flex-wrap: wrap;
-            gap: .7rem;
-            margin-top: 1.2rem;
+            margin-top: 1.1rem;
 
             &__atributos {
-                background-color: rgba(255, 255, 255, 0.404);
+                background-color: rgba(255, 255, 255, 0.5);
                 border-radius: 50px;
                 padding: 5px 10px;
                 width: fit-content;

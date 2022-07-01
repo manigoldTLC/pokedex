@@ -1,7 +1,6 @@
-import PokemonCard from '../../components/PokemonCard';
+import PokemonCard from '../../components/LinguagemCard';
 import style from './Home.module.scss';
 import linguagensJson from '../../linguagens.json'
-import { useState } from 'react';
 
 
 const Home = () => {

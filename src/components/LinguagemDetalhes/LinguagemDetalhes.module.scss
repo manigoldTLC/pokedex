@@ -1,3 +1,11 @@
+.notfound {
+    font-weight: bold;
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.1em;
+}
+
 .pokemonHeader {
     display: flex;
     align-items: center;
@@ -22,7 +30,13 @@
 
 
 .pokemon {
-    background-color: rgba(155, 229, 155, 0.535);
+    background-color: var(--cores-card);
+
+    @for $cor from 1 through 10 {
+       --cores-card: #{rgba(random(255), random(255), random(255), .7)};
+
+    }
+
     height: 500px;
     border-radius: 20px;
     display: flex;

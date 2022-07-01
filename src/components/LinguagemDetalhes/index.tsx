@@ -1,4 +1,4 @@
-import style from './Pokemon.module.scss';
+import style from './LinguagemDetalhes.module.scss';
 import { HiOutlineArrowNarrowLeft } from 'react-icons/hi'
 import PokemonSvg  from '../../assets/bulbassauro.svg';
 import Tabela from '../Tabela';
@@ -11,6 +11,12 @@ const Pokemon: React.FC = () => {
     const navigate = useNavigate();
     const { id } = useParams();
     const linguagem = linguagens.find(item => item.Language === Number(id));
+
+    if (!linguagem) {
+        return (
+            <h1 className={style.notfound}>Not Found :(</h1>
+        )
+    }
 
     return (
         <>

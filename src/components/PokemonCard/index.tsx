@@ -23,7 +23,13 @@ const PokemonCard = ({ linguagem }: Props) => {
 			<div className={style.pokemon}>
 				<div className={style.texts}>
 					{linguagem.Imperative.split(',').map((detalhe, key) => (
-						<span className={style.texts__atributos} key={key}>{detalhe.replace(' ', '')}</span>
+						<>
+							{detalhe ? (
+								<span className={style.texts__atributos} key={key}>{detalhe.replace(' ', '')}</span>
+							) : (
+								null
+							)}
+						</>
 					))}
 				</div>
 

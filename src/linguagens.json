@@ -36,7 +36,8 @@
 		"Reflective": "Yes[4]",
 		"Event-driven": "",
 		"Other paradigm(s)": "",
-		"Standardized?": "concurrent,[5]distributed,[6]"
+		"Standardized?": "concurrent,[5]distributed,[6]",
+		"Image": "https://img.shields.io/badge/adafruit-000000?style=for-the-badge&logo=adafruit&logoColor=white"
 	},
 	{
 		"Language": 4,
@@ -179,7 +180,8 @@
 		"Reflective": "",
 		"Event-driven": "",
 		"Other paradigm(s)": "",
-		"Standardized?": ""
+		"Standardized?": "",
+		"Image": "https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"
 	},
 	{
 		"Language": 15,
@@ -270,7 +272,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "",
 		"Other paradigm(s)": "",
-		"Standardized?": ""
+		"Standardized?": "",
+		"Image": "https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"
 	},
 	{
 		"Language": 22,
@@ -283,7 +286,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "",
 		"Other paradigm(s)": "",
-		"Standardized?": ""
+		"Standardized?": "",
+		"Image": "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"
 	},
 	{
 		"Language": 23,
@@ -296,7 +300,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": "structured, concurrent"
+		"Standardized?": "structured, concurrent",
+		"Image": "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
 	},
 	{
 		"Language": 24,
@@ -478,7 +483,8 @@
 		"Reflective": "",
 		"Event-driven": "",
 		"Other paradigm(s)": "",
-		"Standardized?": "structured"
+		"Standardized?": "structured",
+		"Image": "https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"
 	},
 	{
 		"Language": 38,
@@ -517,7 +523,8 @@
 		"Reflective": "",
 		"Event-driven": "",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": "concurrent, distributed"
+		"Standardized?": "concurrent, distributed",
+		"Image": "https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white"
 	},
 	{
 		"Language": 41,
@@ -675,7 +682,8 @@
 		"Reflective": "",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": "concurrent"
+		"Standardized?": "concurrent",
+		"Image": "https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"
 	},
 	{
 		"Language": 53,
@@ -857,7 +865,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": "concurrent"
+		"Standardized?": "concurrent",
+		"Image": "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"
 	},
 	{
 		"Language": 67,
@@ -909,7 +918,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "Yes[29]",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": ""
+		"Standardized?": "",
+		"Image": "https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"
 	},
 	{
 		"Language": 72,
@@ -1000,7 +1010,8 @@
 		"Reflective": "",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "",
-		"Standardized?": "aspect-oriented"
+		"Standardized?": "aspect-oriented",
+		"Image": "https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"
 	},
 	{
 		"Language": 79,
@@ -1234,7 +1245,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "",
-		"Standardized?": ""
+		"Standardized?": "",
+		"Image": "https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white"
 	},
 	{
 		"Language": 98,
@@ -1416,7 +1428,8 @@
 		"Reflective": "",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "",
-		"Standardized?": "aspect-oriented"
+		"Standardized?": "aspect-oriented",
+		"Image": "https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white"
 	},
 	{
 		"Language": 113,
@@ -1429,7 +1442,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": "concurrent"
+		"Standardized?": "concurrent",
+		"Image": "https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"
 	},
 	{
 		"Language": 114,
@@ -1468,7 +1482,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": ""
+		"Standardized?": "",
+		"Image": "https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white"
 	},
 	{
 		"Language": 117,
@@ -1572,7 +1587,8 @@
 		"Reflective": "Yes",
 		"Event-driven": "Yes",
 		"Other paradigm(s)": "Yes",
-		"Standardized?": "concurrent, declarative, protocol-oriented"
+		"Standardized?": "concurrent, declarative, protocol-oriented",
+		"Image": "https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white"
 	},
 	{
 		"Language": 125,

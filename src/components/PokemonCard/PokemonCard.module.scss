@@ -1,6 +1,6 @@
 .card {
     width: auto;
-    height: max-content;
+    max-height: 200px;
     border-radius: 10px;
     background-color: rgba(14, 103, 14, 0.669);
     padding: 1rem;
@@ -26,14 +26,16 @@
 
         .texts {
             display: flex;
-            flex-direction: column;
-            row-gap: .7rem;
+            flex-wrap: wrap;
+            gap: .7rem;
             margin-top: 1.2rem;
 
             &__atributos {
                 background-color: rgba(255, 255, 255, 0.404);
                 border-radius: 50px;
                 padding: 5px 10px;
+                width: fit-content;
+                height: min-content;
                 color: #fff;
                 text-align: center;
             }
@@ -42,7 +44,7 @@
         .imagem {
 
             &__pokemon {
-                width: 80%;
+                max-width: 150px;
                 left: 20%;
                 position: relative;
                 z-index: 10;

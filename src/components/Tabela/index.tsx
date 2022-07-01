@@ -7,39 +7,45 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { useState } from 'react';
 import linguagensData from '../../linguagens.json';
-// import { ILinguagens } from '../../types/ILinguagens';
+import { TableHead } from '@mui/material';
 
+interface Props {
+    nomeLinguagem: string | undefined,
+    linguagemImperativa: string | undefined,
+    linguagemOO: string | undefined,
+    linguagemFuncional: string | number[] | undefined,
+    linguagemProcedural: string | undefined
+}
 
-
-export default function Tabela() {
-
-    const [linguagens, setLinguagens] = useState(linguagensData);
+export default function Tabela({
+    nomeLinguagem,
+    linguagemImperativa,
+    linguagemOO,
+    linguagemFuncional,
+    linguagemProcedural
+}: Props) {
 
     return (
         <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
-                <TableBody>
-                    {linguagens.map(linguagem => (
+            <Table sx={{ minWidth: 650 }} size="medium" aria-label="a dense table">
+                <TableHead>
+                    <TableRow>
+                        <TableCell align="center" sx={{fontWeight: 'bold'}}>Nome</TableCell>
+                        <TableCell align="center" sx={{fontWeight: 'bold'}}>Uso Imperativo</TableCell>
+                        <TableCell align="center" sx={{fontWeight: 'bold'}}>Orientação a Objeto</TableCell>
+                        <TableCell align="center" sx={{fontWeight: 'bold'}}>Functional</TableCell>
+                        <TableCell align="center" sx={{fontWeight: 'bold'}}>Procedural</TableCell>
+                    </TableRow>
+                </TableHead>
 
-                        <TableRow
-                            key={linguagem.Language}
-                            sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                        >
-                            <TableCell component="th" scope="linguagem">
-                                {linguagem['Intended use']}
-                            </TableCell>
-                            <TableCell align="right">{linguagem['Intended use']}</TableCell>
-                            <TableCell align='right'>{linguagem.Imperative}</TableCell>
-                            <TableCell align='right'>{linguagem['Object-oriented']}</TableCell>
-                            <TableCell align='right'>{linguagem.Functional}</TableCell>
-                            <TableCell align='right'>{linguagem.Procedural}</TableCell>
-                            <TableCell align='right'>{linguagem.Generic}</TableCell>
-                            <TableCell align='right'>{linguagem.Reflective}</TableCell>
-                            <TableCell align='right'>{linguagem['Event-driven']}</TableCell>
-                            <TableCell align='right'>{linguagem['Other paradigm(s)']}</TableCell>
-                            <TableCell align='right'>{linguagem['Standardized?']}</TableCell>
-                        </TableRow>
-                    ))}
+                <TableBody>
+                    <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                        <TableCell align="center">{nomeLinguagem}</TableCell>
+                        <TableCell align='center'>{linguagemImperativa}</TableCell>
+                        <TableCell align='center'>{linguagemOO}</TableCell>
+                        <TableCell align='center'>{linguagemFuncional}</TableCell>
+                        <TableCell align='center'>{linguagemProcedural}</TableCell>
+                    </TableRow>
                 </TableBody>
             </Table>
         </TableContainer>

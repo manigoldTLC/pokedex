@@ -1,13 +1,13 @@
-import Header from "./components/Header";
-import Pokemon from "./components/Pokemon";
-import Detalhes from "./pages/Detalhes";
-import Home from "./pages/Home";
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/Header';
+import AppRouter from "./routes";
 
 function App() {
 	return (
-		<>
-			<Detalhes />
-		</>
+		<Router>
+			<Header />
+			<AppRouter />
+		</Router>
 	);
 }
 
